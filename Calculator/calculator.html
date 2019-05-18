@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Making calculator using javascript</title>
+        <script language = javascript>
+        </script>
+
+    </head>
+    <body>
+    <h2>calculator</h2>  
+    <div id="container">
+        <form name="teen">
+        <input type="text" name="name">
+        <br>
+        <input type="button" name="btn8" value="backspace" onclick="teen.name.value = teen.name.value.slice(0, teen.name.value.length-1)">
+        <input type="button" name="btn8" value="c" onclick="teen.name.value = null">
+        <br>
+        <input type="button" name="btn1" value="1" onclick="teen.name.value += 1">
+        <input type="button" name="btn2" value="2" onclick="teen.name.value += 2">
+        <input type="button" name="btn3" value="3" onclick="teen.name.value += 3">
+        <br>
+        <input type="button" name="btn4" value="4" onclick="teen.name.value += 4">
+        <input type="button" name="btn5" value="5" onclick="teen.name.value += 5">
+        <input type="button" name="btn6" value="6" onclick="teen.name.value += 6">
+        <br>
+        <input type="button" name="btn7" value="7" onclick="teen.name.value += 7">
+        <input type="button" name="btn8" value="8" onclick="teen.name.value += 8">
+        <input type="button" name="btn9" value="9" onclick="teen.name.value += 9">
+        <br>
+        <input type="button" name="btn0" value="0" onclick="teen.name.value += 0">
+        <input type="button" name="btn+" value="+" onclick="teen.name.value += '+' ">
+        <input type="button" name="btn-" value="-" onclick="teen.name.value += '-' ">
+        <br>
+        <input type="button" name="btn*" value="*" onclick="teen.name.value += '*' ">
+        <input type="button" name="btn/" value="/" onclick="teen.name.value += '/' ">
+        <input type="button" name="btn%" value="%" onclick="teen.name.value += '%' ">
+        <br>
+        <input type="button" name="btn." value="." onclick="teen.name.value += '.' ">
+        <input type="button" name="btn(" value="(" onclick="teen.name.value += '(' ">
+        <input type="button" name="btn)" value=")" onclick="teen.name.value += ')' ">
+        <br>
+        <input type="button" name="equal" value="=" onclick="teen.name.value = eval(teen.name.value)">
+    </form>
+    </div>
+    </body>
+
+</html>

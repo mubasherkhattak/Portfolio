@@ -1,0 +1,290 @@
+<html>
+    <head>
+        <title>phonememories</title>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <style>
+            /*
+ * Globals
+ */
+
+html,body{
+	min-width:1000px !important;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #d1b493;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+        box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #fff;
+}
+a{transition:none !important;}
+a:hover,a:focus {
+  color: #FAE1C6;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.color-default{
+    text-align: center;
+    color: #A0522D;
+   position: relative;
+   top: 100;
+   bottom: 30;
+   font-size: 35;
+    
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 100;
+    bottom: 30;
+    font-size: 15;
+}
+
+img{
+    position:relative;
+  top: 10;
+  left: 600;
+  top: 90;
+}
+
+#button{
+color: pink;
+}
+
+nav{
+  background: #D2B48C;
+  overflow: auto;
+  width: 100%;
+}
+.left{
+  float: left;
+  margin: 10px;
+}
+li{
+  display: inline-block;
+}
+.left li a{
+  width: 100px;
+  display: block;
+  background-color: #D2B48C;
+  font-size: 15px;
+  font-family: arial;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  
+}
+.right{
+  float: right;
+  margin: 10px;
+}
+li{
+  display: inline-block;
+}
+
+.right li a{
+  width: 100px;
+  display: block;
+  background-color: #D2B48C;
+  font-size: 15px;
+  font-family: arial;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+button{
+  background-color: #D2B48C;
+  
+}
+
+.center{
+  float: center;
+  margin: 10px;
+}
+li{
+  display: inline-block;
+}
+
+.center li a{
+  width: 100px;
+  display: block;
+  background-color: #D2B48C;
+  font-size: 7px;
+  font-family: arial;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+h1{
+  margin-top: 10px;
+  color: #fff;
+}
+
+</style>
+
+<script>
+        function myFunction() {
+            var x = document.getElementById("upload");
+            x.disabled = true;
+        }
+        </script>
+
+       </head>
+    <body>
+            
+        <nav>
+            <ul class = "left">
+              <li><a href="file:///C:/Users/Mubasher/Desktop/Shopify/Instagram.html"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="file:///C:/Users/Mubasher/Desktop/Shopify/Facebook.html"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="file:///C:/Users/Mubasher/Desktop/Shopify/upload.html"><i class="fa fa-upload"></i></a></li>
+    
+            </ul>
+            <ul class = "right">
+              <button>REVIEW NOW</button>
+            </ul>
+    
+            <ul class="center">
+              <h1 class="photo">PLEASE SELECT 0/36 PHOTOS</h1>
+            </ul>
+          </nav>
+         <img src="logo-upload-big.png">
+            <h1 class="color-default">UPLOAD YOUR<br>PHOTOS</h1>
+        <p>Maximum file size is 7mb each.<br>Minimum image size is 640 pixels x 640 pixels at 72 dpi.</p>
+        <p>*Date information will be taken from the image's EXIF data.</p>
+        <p>If no date-data exist, we will replace with the order submission <br>date.</p>
+        <p id = "button"><input type="file" id="upload"></p>
+       </div>       
+    </body>
+</html>

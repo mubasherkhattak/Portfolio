@@ -1,0 +1,109 @@
+#wowslider-container { 
+/*	overflow: hidden; */
+	zoom: 1; 
+	position: relative; 
+	width:962px;
+	margin:0 auto;
+	z-index:0;
+}
+#wowslider-images{
+	width:962px;
+	height:331px;
+	overflow:hidden;
+}
+#wowslider-images a{
+	color:transparent;
+}
+
+#wowslider-images img{
+	top:0;
+	left:0;
+	border:none 0;
+}
+#wowslider-container a{ 
+	text-decoration: none; 
+	outline: none; 
+	border: none; 
+}
+
+
+
+#wowslider-container a.ws_next, #wowslider-container a.ws_prev {
+	font-family: Tahoma,Arial,Helvetica;
+	font-size: 14px;
+	position:absolute;
+	display:none;
+	top:50%;
+	margin-top:-15px;
+	line-height:30px;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+	opacity:0.7;
+	position:absolute;
+	z-index:1001;
+	background-color: #000000; 
+	color: #FFFFFF; 
+	padding: 0px 10px; 
+}
+#wowslider-container a.ws_next{
+	right:0;
+}
+#wowslider-container a.ws_prev {
+	left:0;
+}
+* html #wowslider-container a.ws_next,* html #wowslider-container a.ws_prev{display:block}
+#wowslider-container:hover a.ws_next, #wowslider-container:hover a.ws_prev {display:block}
+
+
+
+#wowslider-container .ws-title{
+	position: absolute;
+	bottom:0;
+	left: 0;
+	margin-right:5px;
+	z-index: 50;
+	background-color:#000000;
+	color:#FFFFFF;
+	padding:10px 1%;
+	width:98%;
+	opacity:0.55;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=55);	
+	font-family: Tahoma,Arial,Helvetica;
+	font-size: 24px;
+}
+#wowslider-container .ws-title div{
+	padding-top:5px;
+	font-size: 12px;
+}#wowslider-container .ws_bullets  a img{
+	text-indent:0;
+	display:block;
+	top:12px;
+	left:-131px;
+	visibility:hidden;
+	
+	position:absolute;
+    border: 2px solid #B8C4CF;
+}
+#wowslider-container .ws_bullets a:hover img{
+	visibility:visible;
+}
+
+#wowslider-container .ws_bulframe div div{
+	height:90px;
+	overflow:visible;
+	position:relative;
+}
+#wowslider-container .ws_bulframe div {
+	overflow:hidden;
+	width:261px;
+}
+#wowslider-container .ws_bulframe{
+	display:none;
+	top:25px;
+	overflow:hidden;
+	position:absolute;
+	cursor:pointer;
+    border: 2px solid #B8C4CF;
+}
+#wowslider-container .ws_bulframe span{
+	position:absolute;
+}
